@@ -14,7 +14,7 @@ hostname = *.cloudfront.net
 
 *******************************/
 var baby = JSON.parse($response.body);
-
+console.log('zhonwengwang',baby)
 baby = {
   "paywall": 0,
   "premium": 1,
